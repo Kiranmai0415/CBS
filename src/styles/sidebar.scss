@@ -1,0 +1,178 @@
+.drawer-icon1 {
+  height: 7%;
+}
+
+.drawer {
+  width: 20% !important;
+}
+
+.drawer-img {
+  // height: 100vh;
+  background-color: $drawerBg;
+}
+
+.drawer-top {
+  background-color: $drawerBg;
+  width: 100%;
+  height: 35%;
+}
+
+.profile {
+  height: 50%;
+}
+
+.profile-icon {
+  border-radius: 50%;
+}
+
+.text-color {
+  color: $textColor;
+  margin: 0px !important;
+}
+
+.name-color {
+  color: $nameColor;
+  margin: 0px !important;
+}
+
+.email-color {
+  color: $textColor;
+  margin: 0px !important;
+}
+
+.link {
+  background-color: $bg_DrawerBottom;
+  color: $white;
+  gap: 10px;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+}
+
+// .link:active {
+//   background: $starYellow;
+// }
+
+.link_text {
+  padding-top: 4px;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.menu-bar {
+  background-color: $drawerBg;
+}
+
+.menu-bar1 {
+  right: 20px;
+  top: 0px;
+  height: 40px;
+}
+
+.menu {
+  height: 35px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+.main-container {
+  display: flex;
+}
+
+
+
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  background: $bg_Drawer;
+  color: $textColor;
+  height: 100vh;
+  overflow-y: auto;
+  width: 100% !important;
+
+}
+
+// .top_section {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 15px 10px;
+// }
+
+.logo {
+  font-size: 18px;
+  line-height: 0;
+}
+
+// .bars {
+//   width: 30px;
+// }
+
+.hide {
+  display: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;
+}
+
+.routes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link {
+  display: flex;
+  color: $textColor;
+  gap: 10px;
+  padding: 5px 10px;
+  // border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.menu {
+  display: flex;
+  color: $icon-bgcolor;
+font-weight: bold;
+  padding: 5px 18px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+}
+
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_container .link {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: $textHoverColor;
+ 
+}

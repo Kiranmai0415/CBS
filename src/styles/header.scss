@@ -1,0 +1,44 @@
+.settings-icon {
+    height: 20px;
+    // background-color: #EEA648;
+}
+
+.search-input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+
+
+
+// .icon{
+//     height: 10px !important;
+// }
+.posRight {
+    position: absolute;
+    left: 64%;
+    // right: 80%;
+}
+
+// .circle_col{
+//     background-color: #eea664;
+//     height: 30px;
+//     border-radius: 15px;
+//     outline: none;
+
+// }
+.circle_col {
+    background-color: #eea664;
+    height: 30px;
+    width: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.letter {
+    color: $white
+}
+.color{
+    color:black
+}

@@ -1,0 +1,6 @@
+const EmpTypes = {
+    EMP_DETAILS_REQUEST: "EMP_DETAILS_REQUEST",
+    EMP_DETAILS_SUCCESS: "EMP_DETAILS_SUCCESS"
+
+};
+export { EmpTypes };

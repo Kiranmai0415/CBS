@@ -1,0 +1,254 @@
+.main-bg-image {
+    background: url(../images/auth_backround_img.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+@media (max-width: 1100px) {
+    .col-7 {
+        width: 0% !important;
+    }
+
+    .top1 {
+        top: 7px !important;
+    }
+
+    .col-5 {
+        width: 100% !important;
+    }
+
+    .app-logo {
+        height: 35px;
+        width: 119px;
+        margin-left: 24px;
+        display: none;
+    }
+
+    .cbs-vector {
+        height: 164px;
+        width: 124px;
+        margin-left: 10px;
+        display: none;
+    }
+
+    .cbs_business_logo {
+        height: 64px;
+        width: 113px;
+        margin-left: 0px;
+    }
+
+    .side_vector {
+        height: 90%;
+        width: 362px;
+        margin: auto;
+        width: 94%;
+        background-color: $white;
+    }
+
+    .success-button {
+        border-radius: 28px !important;
+        width: 100px;
+        background-color: $headColor  !important;
+    }
+
+    .mt-30 {
+        margin-top: -30px;
+    }
+}
+
+.heading {
+    color: $headColor;
+}
+
+.bg_color {
+    background-color: $bg_vecotor;
+}
+
+@media(max-width:1499px) {
+    .txt_color {
+        color: $red;
+        border-radius: 1.25rem !important;
+        width: 80%;
+        box-shadow: none !important;
+
+    }
+
+    .p-tag {
+        margin-top: -17px !important;
+        width: 80%;
+        box-shadow: none !important;
+
+    }
+
+    .underline {
+        text-decoration: none !important;
+    }
+
+    .side_vector {
+        height: 95%;
+        margin: auto;
+        width: 80%;
+        background-color: $white;
+    }
+
+    .txt_color {
+        color: $red;
+        border-radius: 1.25rem !important;
+        width: 80%;
+
+    }
+
+    .icon {
+        right: 170px;
+    }
+
+    .p-tag {
+        margin-top: -30px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .cbs-vector {
+        height: 50%;
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .app-logo {
+        height: 50px;
+        width: 220px;
+        margin-left: 150px;
+    }
+
+    .cbs_business_logo {
+        height: 80px;
+        width: 150px;
+    }
+
+    .success-button {
+        border-radius: 28px !important;
+        width: 200px;
+    }
+
+    .forgotmessage {
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media (min-width:1500px) {
+    .txt_color {
+        color: $red;
+        border-radius: 1.25rem !important;
+        width: 80%;
+        box-shadow: none !important;
+
+    }
+
+    .p-tag {
+        margin-top: -17px !important;
+        width: 80%;
+        box-shadow: none !important;
+
+    }
+
+    .underline {
+        text-decoration: none !important;
+    }
+
+    .side_vector {
+        height: 95%;
+        margin: auto;
+        width: 80%;
+        background-color: $white;
+    }
+
+    .txt_color {
+        color: $red;
+        border-radius: 1.25rem !important;
+        width: 80%;
+
+    }
+
+    .icon {
+        right: 170px;
+    }
+
+    .p-tag {
+        margin-top: -30px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .cbs-vector {
+        height: 50%;
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .app-logo {
+        height: 50px;
+        width: 220px;
+        margin-left: 150px;
+    }
+
+    .cbs_business_logo {
+        height: 80px;
+        width: 150px;
+    }
+
+    .success-button {
+        border-radius: 28px !important;
+        width: 200px;
+    }
+
+    .forgotmessage {
+        margin-bottom: 2rem !important;
+    }
+} 
+
+.form {
+    align-content: center;
+    width: 70%;
+    height: 100vh;
+    border: 2px solid $grey;
+    margin-left: 10%;
+
+
+}
+
+.hedding_text-color {
+    color: $green;
+}
+  
+ 
+  .hedding_text-color{
+    color:$headlineBlue !important;
+  }
+  .lable{
+    line-height: 50px;
+}
+
+.input_width {
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+.button_color {
+    background-color: $headColor  !important;
+}
+
+.timesheet {
+    width: 40px;
+    height: 35px;
+    background-color:$icon-bgcolor ;
+    border-radius: 5px;
+}
+
+.calender_image {
+    width: 35px;
+    height: 33.06px;
+  }
+  
+  
+  

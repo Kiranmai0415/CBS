@@ -1,0 +1,21 @@
+@import './Styles/_index';
+
+
+@font-face {
+    font-family: GT-Bold;
+    src: url("./styles/fonts/GTAmericaBold.ttf");
+}
+
+@font-face {
+    font-family: GT-BoldItalic;
+    src: url("./styles/fonts/GTAmericaBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: GT-Regular;
+    src: url("./styles/fonts/GTAmericaRegular.ttf");
+}
+
+body {
+    font-family: GT-Regular;
+}
